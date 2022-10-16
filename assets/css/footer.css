@@ -1,0 +1,141 @@
+footer{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    background-color: #1d1d52;
+    background-image: url('../image/bg-headline.png');
+    background-position: bottom;
+    background-size: cover;
+}
+
+footer .body-footer {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+footer .Logo-rodape {
+    flex: 1;
+}
+
+
+.Logo-rodape {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+footer .body-footer h2 {
+    font-size: 40px;
+    margin-top: 20px;
+    color: #fff;
+}
+
+footer .body-footer p {
+    max-width: 70%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.61);
+}
+
+footer .body-footer .icons-sociais {
+    display: flex;
+}
+
+footer .body-footer .icon-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    margin: 3px;
+    background-color: #fff;
+    /*box-shadow: 5px 5px 20px rgb(187, 187, 187);*/
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+footer .body-footer .icon-social .fa-facebook {
+    color: blue;
+}
+
+footer .body-footer .icon-social .fa-instagram {
+    color: rgb(255, 0, 119);
+}
+
+
+footer .formulrio {
+    flex: 1;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.name:focus,
+.email:focus,
+.textarea:focus  {
+    background-color: rgb(231, 231, 231);
+}
+
+footer label input,
+textarea {
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    width: 78%;
+}
+
+footer .bt-form {
+    display: block;
+    padding: 6px 25px;
+    background-color: mediumseagreen;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+}
+
+footer .bt-form:hover {
+    background-color: rgb(46, 141, 89);
+    transition: 0.1s;
+}
+
+
+.name-email {
+    display: flex;
+}
+
+
+
+
+
+
+
+.creditos {
+    background-color: #1f1f1f;;
+    width: 100%;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+.creditos .text-copy {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.creditos .text-copy p {
+    font-size: 13px;
+    color: rgb(185, 185, 185);
+}

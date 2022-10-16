@@ -1,0 +1,215 @@
+.box-menu {
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    margin-left: -300px;
+    width: 300px;
+    padding: 15px;
+    background-color: rgb(199, 199, 199);
+    overflow: hidden;
+    display: none;
+    transition: all ease 0.2s;
+  }
+  
+  .modal-transparent-menu-Mobile {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: 800;
+    background-color: rgba(255, 255, 255, 0.000);
+    display: none;
+  }
+  
+  .menuClose {
+    margin-left: 0;
+  }
+  
+  .box-menu .list-menu-mobile {
+    padding: 10px;
+  }
+  
+  .box-menu .list-menu-mobile:hover {
+    background-color: darkgrey;
+  }
+  
+  .menuMobile {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  
+  .bt-menu-mobile-open {
+    width: 50px;
+    height: 40px;
+    margin-left: 20px;
+    cursor: pointer;
+    display: none;
+  }
+  
+  
+  .bt-closed {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    background-color: #f00202;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  
+
+
+
+
+@media only screen and (max-width: 784px) {
+
+  .logo {
+    display: none;
+  }
+
+  .box-menu {
+    display: flex;
+  }
+
+  .bt-menu-mobile-open{
+    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .bt-menu-mobile-open .bar-menu {
+    height: 5px;
+    background-color: #008dce;
+    border-radius: 30px;
+  }
+
+  .bt-menu-mobile-open .bar-menu.bar2 {
+    width: 80%;
+  }
+  .bt-menu-mobile-open .bar-menu.bar3 {
+    width: 50%;
+  }
+
+  #menuPadrao {
+    display: none;
+  }
+
+  .nav {
+    flex-direction: column;
+    margin-top: 50px;
+
+  }
+
+  header li {
+    width: 100%;
+    padding: 10px 10px 10px 40px;
+  }
+
+  header .btcontact {
+    display: none;
+  }
+
+  .bt-whats-mobile {
+    display: block;
+  }
+      
+  #banner .banner-headline {
+    flex-direction: column-reverse;
+    padding: 0 30px;
+    text-align: center;
+    padding-bottom: 80px;
+  }
+  #banner .image-banner img {
+    width: 100%;
+  }
+
+  #banner .gradiente {
+    display: block;
+  }
+
+  #about-me .container {
+    flex-direction: column;
+  }
+
+  #about-me .conteudo-about {
+    padding: 30px;
+  }
+
+  #expertise {
+    padding: 100px 30px !important;
+  }
+  
+  #expertise .prog-bar-area {
+    width: 95% !important;
+  }
+
+  .bady-experience {
+    margin-top: 80px;
+  }
+
+
+  footer .body-footer h2 {
+    line-height: 40px;
+    margin-bottom: 4px;
+  }
+
+  footer .body-footer {
+    padding: 0 30px;
+  }
+
+  footer label input, textarea {
+    width: 100% !important;
+  }
+
+      
+}
+
+@media only screen and (max-width: 550px) {
+  footer .body-footer {
+    flex-direction: column;
+  }
+
+
+  #about-me .box-img {
+    width: 100%;
+    margin-right: 0 !important;;
+  }
+
+  footer label input,
+  textarea {
+    width: 100%;
+  }
+
+  footer .body-footer {
+    padding: 0px 0px;
+  }
+
+  .creditos .text-copy p {
+    text-align: center;
+  }
+
+  .creditos .text-copy {
+    padding: 0 25px;
+  }
+
+}
+
+@media (min-width: 400px) and (max-width: 549px) {
+  #banner h1 {
+    font-size: 45px;
+    letter-spacing: -2px;
+  }
+
+  #banner h2 {
+    font-size: 21px;
+  }
+} 
